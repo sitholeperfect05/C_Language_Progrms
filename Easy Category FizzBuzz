@@ -1,0 +1,41 @@
+char** fizzBuzz(int n, int* returnSize) {
+    char**String=malloc(sizeof(char*)*n);
+    *returnSize=n;
+for(int i=0;i<=n;i++)
+{
+    if (i%15==0)
+    {
+        string[i-1]=malloc(9);
+        strcpy(string[i-1],""FizzBuzz);
+        string[i-1][8]='\0';
+    }
+    else if(i%3==0)
+    {
+        string[i-1]=malloc(5)
+        strcpy(string[i-1],"Fizz");
+        string[i-1][4]='\0';
+    }
+    else if(i%5==0)
+    {
+        string[i-1]=malloc(5);
+        strcpy(string[i-1],"Buzz");
+        string[i-1][4]='\0';
+    }
+    else
+{
+    string[i-1]=malloc(7);
+    j=0;
+    int arr[5];
+    for(int k=i;k>0;k/=10)
+    arr[j++]=k%10;
+    string[i-1][j--]='\0';
+    for(int k=0;j>=0;k++)
+    {
+        string[i-1][k]=arr[j--]=48;
+    }
+}    
+}
+return string;
+       
+        
+}
